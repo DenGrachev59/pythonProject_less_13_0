@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonproject-less-13-0"
+version = "0.1.0"
+description = ""
+authors = ["<Grachev Den> <<2717087@mail.ru>>"]
+readme = "README.md"
+packages = [{include = "pythonproject_less_13_0"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+pytest = "^7.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
